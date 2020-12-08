@@ -22,7 +22,7 @@ class RingPainterView: UIView {
     // 6.6pc = 1mm
     
     private func getDarkRadius(n: Int) -> CGFloat{
-        let currentDarkRadius = CGFloat(sqrt(Double(n) * lenth * radius) / 39000)
+        let currentDarkRadius = CGFloat(sqrt(Double(n) * lenth * radius) / 39000 )
         
         return currentDarkRadius
     }
@@ -80,7 +80,7 @@ class RingPainterView: UIView {
             shapeLayer.lineWidth = radius
             layer.addSublayer(shapeLayer)
             
-            currentX += CGFloat(6.6)
+            currentX += CGFloat(26)
         }
         
         currentX = rect.width / 2
@@ -97,7 +97,7 @@ class RingPainterView: UIView {
             shapeLayer.lineWidth = radius
             layer.addSublayer(shapeLayer)
             
-            currentY += CGFloat(6.6)
+            currentY += CGFloat(26)
         }
 
     }
