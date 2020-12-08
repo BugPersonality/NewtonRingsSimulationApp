@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  ModelingNewtonRings
-//
-//  Created by Данил Дубов on 08.12.2020.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {

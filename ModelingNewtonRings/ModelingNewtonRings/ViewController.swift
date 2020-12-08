@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  ModelingNewtonRings
-//
-//  Created by Данил Дубов on 08.12.2020.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
@@ -22,8 +15,6 @@ class ViewController: UIViewController {
         let lengthDouble = Double(lengthString) ?? 630.0
         
         radiusDouble = radiusDouble * 1000000000
-        
-        print("\(lengthString) \(lengthDouble) \(radiusString) \(radiusDouble)")
         
         guard let sublayers = RingPainter.layer.sublayers else { return }
                 for layer in sublayers {
