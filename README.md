@@ -1,4 +1,4 @@
 # NewtonRingsSimulationApp
 Newton rings simulation
 
-![](/NewtonRings)
+![](/NewtonRings.gif)
