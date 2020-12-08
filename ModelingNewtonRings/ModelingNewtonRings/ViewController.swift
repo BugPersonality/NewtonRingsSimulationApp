@@ -2,7 +2,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var RingPainter: UIIntroductionView!
+    @IBOutlet weak var RingPainter: RingPainterView!
     @IBOutlet weak var length: UITextField!
     
     @IBOutlet weak var radius: UITextField!

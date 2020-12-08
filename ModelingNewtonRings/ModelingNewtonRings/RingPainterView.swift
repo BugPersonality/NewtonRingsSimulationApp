@@ -1,7 +1,7 @@
 import UIKit
 
 @IBDesignable
-class UIIntroductionView: UIView {
+class RingPainterView: UIView {
 
     var lenth: Double = 630.0{
         didSet{

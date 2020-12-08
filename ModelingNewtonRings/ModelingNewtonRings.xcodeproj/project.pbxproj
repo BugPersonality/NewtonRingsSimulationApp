@@ -13,7 +13,7 @@
 		2442AB4F257F92E60031E5BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2442AB4D257F92E60031E5BD /* Main.storyboard */; };
 		2442AB51257F92E80031E5BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2442AB50257F92E80031E5BD /* Assets.xcassets */; };
 		2442AB54257F92E80031E5BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2442AB52257F92E80031E5BD /* LaunchScreen.storyboard */; };
-		2442AB5D257F93040031E5BD /* UIIntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2442AB5C257F93040031E5BD /* UIIntroductionView.swift */; };
+		2442AB5D257F93040031E5BD /* RingPainterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2442AB5C257F93040031E5BD /* RingPainterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		2442AB50257F92E80031E5BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2442AB53257F92E80031E5BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2442AB55257F92E80031E5BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2442AB5C257F93040031E5BD /* UIIntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIIntroductionView.swift; sourceTree = "<group>"; };
+		2442AB5C257F93040031E5BD /* RingPainterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingPainterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 			children = (
 				2442AB5F257F932C0031E5BD /* HelpFiles */,
 				2442AB4B257F92E60031E5BD /* ViewController.swift */,
-				2442AB5C257F93040031E5BD /* UIIntroductionView.swift */,
+				2442AB5C257F93040031E5BD /* RingPainterView.swift */,
 				2442AB4D257F92E60031E5BD /* Main.storyboard */,
 				2442AB50257F92E80031E5BD /* Assets.xcassets */,
 				2442AB55257F92E80031E5BD /* Info.plist */,
@@ -150,7 +150,7 @@
 			files = (
 				2442AB4C257F92E60031E5BD /* ViewController.swift in Sources */,
 				2442AB48257F92E60031E5BD /* AppDelegate.swift in Sources */,
-				2442AB5D257F93040031E5BD /* UIIntroductionView.swift in Sources */,
+				2442AB5D257F93040031E5BD /* RingPainterView.swift in Sources */,
 				2442AB4A257F92E60031E5BD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
