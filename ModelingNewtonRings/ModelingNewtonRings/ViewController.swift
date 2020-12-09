@@ -23,8 +23,6 @@ class ViewController: UIViewController {
         
         RingPainter.lenth = lengthDouble
         RingPainter.radius = radiusDouble
-        
-        
     }
     override func viewDidLoad() {
         super.viewDidLoad()
